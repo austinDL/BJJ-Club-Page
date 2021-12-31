@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Libre Baskervidlle", "Oxygen";
+  font-size: 14px;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.box {
+  background-color: beige;
+  border: 2px solid black;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.95);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.nav-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 15fr 1fr;
+  grid-template-rows: 100px;
+  grid-gap: 10px;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.logo img {
+  padding: 10px;
+  height: 80px;
+  justify-self: center;
+}
+nav {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-around;
+}
+nav p:hover {
+  color: rgb(0, 89, 255);
+  font-weight: 600;
+}
+.pointer {
+  cursor: pointer;
+}
+.socials img {
+  height: 20px;
+}
+
+main {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 500px 1fr 80px;
+  grid-gap: 25px;
+}
+.center {
+  align-self: center;
+  justify-self: center;
+}
+.invert {
+  filter: invert(100%);
+}
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url("../images/Splash.png");
+  background-size: 100% auto;
+  background-position: bottom;
+  grid-column: 1 / -1;
+}
+.staff-request {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  color: white;
+  background-color: rgb(58, 58, 255);
+  border-radius: 10px;
+  width: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120px;
+  width: 80%;
+  margin: 20px 10px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  color: rgb(119, 119, 119);
+  padding: 25px;
+}
+.privacy-policy {
+  width: auto;
+}
+.privacy-policy:hover {
+  color: rgb(0, 89, 255);
+}
+.blue {
+  color: white;
+  background-color: blue;
+}
+.blue:hover {
+  background-color: rgb(0, 255, 234);
+  color: blue;
+}
+.white {
+  color: rgb(70, 70, 70);
+  background-color: white;
+}
+.white:hover {
+  color: white;
+  background: gray;
+}
+.button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+form {
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: rgb(58, 58, 255);
+  color: white;
+  width: 80%;
+  padding: 20px 10px;
+  line-height: 2.5;
+}
+
+label {
+  font-weight: 650;
+}
+input {
+  width: 50%;
+  height: 2em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(19, 19, 19);
+  color: #999;
+  grid-column: 1 / -1;
+  padding: 0 100px;
+}
